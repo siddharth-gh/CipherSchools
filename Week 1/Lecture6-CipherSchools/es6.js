@@ -24,7 +24,7 @@ const q2 = ["apr", "may", "june"];
 const q3 = ["july", "aug", "sep"];
 const q4 = ["oct", "nov", "dec"];
 
-const year  = [...q1, ...q2, ...q3, ...q4];   /* --> Spread operation to expand the array */
+const year = [...q1, ...q2, ...q3, ...q4];   /* --> Spread operation to expand the array */
 console.log(year);
 
 
@@ -35,7 +35,7 @@ console.log(maxValue);
 //for-of loop
 const numbers = [1, 85, -11, 69, 73, -45, 25, 12];
 let sum = 0;
-for(let num of numbers) {
+for (let num of numbers) {
 	sum = sum + num;
 }
 console.log(sum);
@@ -43,7 +43,7 @@ console.log(sum);
 
 const name = "Siddharth Suman";
 let text = "";
-for(let letter of name) {
+for (let letter of name) {
 	text += letter + " ";
 }
 console.log(text);
